@@ -1,0 +1,17 @@
+{
+	"required": true,
+	"package": "com.opt_explosion.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin",
+		"ServerExplosionMixin",
+		"BlockMixin",
+		"MinecraftServerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
